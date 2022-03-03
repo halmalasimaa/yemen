@@ -1,0 +1,68 @@
+#wertyu{
+	background: #00979A;
+	border-radius: 10px 20px;
+  width: 100%;
+  color: white;
+
+}
+
+#bodyww {
+    background: rgb(169, 213, 214);
+    margin: 10px;
+
+}
+div{
+    
+    text-align: center;
+}
+
+th , td{ border: 1px solid rgb(46, 89, 92);
+    padding: 8px;
+
+
+}
+thead{
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    box-shadow: black;
+}
+tfoot{
+    color: black;
+font-size: 0.7em;
+  font-weight: bold;
+  
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+svg{
+    color: #FFFFFF;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+form {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h2{
+
+    text-align: center;
+    color: #008592;
+    font-weight: bold;
+}
+
+footer{
+	text-align: center;
+ 
+    color: white;
+  
+  }
+  footer h4{
+      color: white;
+      font-size: 10px;
+  
+  }
