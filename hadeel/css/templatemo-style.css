@@ -15,18 +15,18 @@ html.gray #loader-wrapper {
 }
 
 body {
-	background-color: #DDDDDD;
+	font-weight: normal;
+font-family:  Cairo , sans-serif;
+	background-color: #fff0f0;
 	color: black;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 17px;
-	font-weight: 300;
+	font-size: 14px;
 	overflow-x: hidden;
 }
 
 ul { padding: 0; margin: 0; }
 figure { margin: 0; }
 p:last-child { margin-bottom: 0; }
-a { color: #3f97c9; }
+a { color: #fcefdb; }
 a, button { transition: all 0.3s ease; }
 a:hover,
 a:focus {
@@ -48,7 +48,12 @@ a:focus {
 	padding-right: 0;
 }
 
-.cd-hero-slider .cd-full-width { padding-top: 0; }
+.cd-hero-slider .cd-full-width
+ { 
+	padding: 20px;
+	padding-top: 0; 
+
+}
 
 .cd-slider-nav {
 	position: absolute;
@@ -85,7 +90,7 @@ a:focus {
 	    justify-content: space-between;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgb(255, 249, 249);
 	overflow: auto;
 }
 
@@ -93,7 +98,7 @@ a:focus {
 	float: right;
 	font-size: 1.75rem;
 	padding: 0.75rem;
-	background: rgba(255,255,255,0.7);
+	background: rgb(255, 255, 255);
 	border-radius: 0;
 	position: absolute;
 	right: 10px;
@@ -144,17 +149,17 @@ button:focus { outline: none; }
 }
 
 /* Background & menu colors */
-.cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); }
-.cd-hero-slider li:nth-of-type(2) { background-color: rgba(237, 84, 76, 0.62); }
-.cd-hero-slider li:nth-of-type(3) { background-color: rgba(234, 163, 25, 0.62); }
-.cd-hero-slider li:nth-of-type(4) { background-color: rgba(22, 181, 163, 0.62); }
-.cd-hero-slider li:nth-of-type(5) { background-color: rgba(68, 127, 202, 0.62); }
+.cd-hero-slider li:nth-of-type(1) { background-color: rgb(255, 236, 230); }
+.cd-hero-slider li:nth-of-type(2) { background-color: rgba(209, 105, 209, 0.62); }
+.cd-hero-slider li:nth-of-type(3) { background-color: rgba(204, 105, 105, 0.62); }
+.cd-hero-slider li:nth-of-type(4) { background-color: rgba(250, 196, 183, 0.62); }
+.cd-hero-slider li:nth-of-type(5) { background-color: rgba(143, 82, 151, 0.62); }
 
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {
 
-	background-color: #38b6e6;
+	background-color: #b99a92;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
